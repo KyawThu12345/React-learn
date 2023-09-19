@@ -53,6 +53,11 @@ const App = () => {
     totalExercises += part.exercises;
   })
 
+  // const totalExercises = course.parts.reduce(
+  //   (total, part) => total + part.exercises,
+  //   0
+  // );
+
   return (
     <div>
       <Header course={courses.name} />
